@@ -1,0 +1,41 @@
+body{
+    background-color: red;
+}
+
+.painel {
+    margin: auto;
+    background-color: white;
+    width: 600px;
+    height: 550px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 50px;
+    z-index: -1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#sim {   
+    position: absolute;
+    height: 50px;
+    width: 60px;
+    background-color: red;
+    border:2px solid white;
+    border-radius: 20px;
+    color: white;
+    margin-left: 220px;
+}
+
+#nao {
+    position: absolute;
+    height: 50px;
+    width: 60px;
+    background-color: red;
+    border:2px solid white;
+    border-radius: 20px;
+    color: white;
+    margin-left: 320px;
+}
+
+.painel img{
+    margin-left: 100px;
+}
